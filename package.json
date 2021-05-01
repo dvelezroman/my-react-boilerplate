@@ -1,0 +1,42 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "react boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-react-boiler": "./bin/start.js"
+  },
+  "author": "Dario Velez Roman",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "babel-loader": "^8.2.2",
+    "compression-webpack-plugin": "^7.1.2",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-svg-data-uri": "^1.2.3",
+    "react-hot-loader": "^4.13.0",
+    "source-map-loader": "^2.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.1.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
